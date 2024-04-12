@@ -1,0 +1,48 @@
+Configurazione degli indirizzi IP:
+Edificio A:
+IP network: 192.168.1.0/24
+Piano 1:
+IP range: 192.168.1.1 - 192.168.1.62
+Indirizzo di rete: 192.168.1.0
+Indirizzo di broadcast: 192.168.1.63
+Sottorete: 255.255.255.192 (/26)
+Piano 2:
+IP range: 192.168.1.65 - 192.168.1.126
+Indirizzo di rete: 192.168.1.64
+Indirizzo di broadcast: 192.168.1.127
+Sottorete: 255.255.255.192 (/26)
+Piano 3:
+IP range: 192.168.1.129 - 192.168.1.190
+Indirizzo di rete: 192.168.1.128
+Indirizzo di broadcast: 192.168.1.191
+Sottorete: 255.255.255.192 (/26)
+Piano 4:
+IP range: 192.168.1.193 - 192.168.1.254
+Indirizzo di rete: 192.168.1.192
+Indirizzo di broadcast: 192.168.1.255
+Sottorete: 255.255.255.192 (/26)
+Edificio B:
+IP network: 192.168.2.0/24
+Piano 1:
+IP range: 192.168.2.1 - 192.168.2.62
+Indirizzo di rete: 192.168.2.0
+Indirizzo di broadcast: 192.168.2.63
+Sottorete: 255.255.255.192 (/26)
+Piano 2:
+IP range: 192.168.2.65 - 192.168.2.126
+Indirizzo di rete: 192.168.2.64
+Indirizzo di broadcast: 192.168.2.127
+Sottorete: 255.255.255.192 (/26)
+Piano 3:
+IP range: 192.168.2.129 - 192.168.2.190
+Indirizzo di rete: 192.168.2.128
+Indirizzo di broadcast: 192.168.2.191
+Sottorete: 255.255.255.192 (/26)
+Piano 4:
+IP range: 192.168.2.193 - 192.168.2.254
+Indirizzo di rete: 192.168.2.192
+Indirizzo di broadcast: 192.168.2.255
+Sottorete: 255.255.255.192 (/26)
+Motivazioni della configurazione di rete:
+La decisione di utilizzare un unico router situato al piano 1 dell'edificio A è stata presa per semplificare la gestione della rete e ridurre i costi di installazione e manutenzione. Un unico router può gestire efficacemente l'intero traffico di entrambi gli edifici, collegando i dispositivi attraverso gli switch e gli access point presenti su ogni piano.
+Inoltre, l'utilizzo di sottoreti (/26) per ogni piano consente una gestione efficiente degli indirizzi IP e una suddivisione logica della rete. Questo permette di limitare il traffico broadcast e di migliorare le prestazioni complessive della rete, mantenendo allo stesso tempo la flessibilità necessaria per la crescita futura dell'azienda.Infine, l'installazione di un ripetitore a ogni piano contribuisce ad amplificare il segnale della rete wireless, garantendo una connessione stabile e affidabile per tutti i dispositivi, anche nelle aree più distanti dal router principale.Questa configurazione di rete è stata progettata con l'obiettivo di garantire un'efficienza ottimale, una gestione semplificata e una connettività affidabile per soddisfare le esigenze attuali e future dell'azienda.
